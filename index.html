@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Wom Gym</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <h1 style="color: var(--secondary-color); font-size: 2.5rem;">WOM<span style="color: var(--white);">GYM</span></h1>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Anasayfa</a></li>
+        <li class="link"><a href="#services">Hizmetler</a></li>
+        <li class="link"><a href="#about">Hakkımızda</a></li>
+        <li class="link"><a href="#contact">İletişim</a></li>
+      </ul>
+      <!-- <button class="btn"></button> -->
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__content">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <h4>Şehrin En İyisi</h4>
+        <h1><span>VÜCUDUNU</span> iSTEDİĞİN GİBİ ŞEKİLLENDİR</h1>
+        <p>
+          Potansiyelinizi açığa çıkarın ve daha güçlü, daha formda ve daha özgüvenli bir 
+          kendinize doğru yolculuğa çıkın. 
+          Şimdi 'FİTNESS' programına kaydolun ve vücudunuzun
+           yapabileceği inanılmaz dönüşüme tanık olun!
+        </p>
+        <button class="btn" onclick="window.location.href='mailto:info@womgym.com'">İLETİŞİM</button>
+      </div>
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+    </header>
+
+    <section class="section__container explore__container" id="services">
+      <div class="explore__header">
+        <h2 class="section__header"> PROGRAMLARIMIZI KEŞFET</h2>
+        <div class="explore__nav">
+          <!-- <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span> -->
+        </div>
+      </div>
+      <div class="explore__grid">
+        <div class="explore__card">
+          <span><i class="ri-boxing-fill"></i></span>
+          <h4>Kuvvet</h4>
+          <p>
+            Embrace the essence of strength as we delve into its various
+            dimensions physical, mental, and emotional.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-heart-pulse-fill"></i></span>
+          <h4> Fitness</h4>
+          <p>
+            It encompasses a range of activities that improve health, strength,
+            flexibility, and overall well-being.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-run-line"></i></span>
+          <h4>Yağ Kaybı</h4>
+          <p>
+            Through a combination of workout routines and expert guidance, we'll
+            empower you to reach your goals.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-shopping-basket-fill"></i></span>
+          <h4>Hacim Kazanımı</h4>
+          <p>
+            Designed for individuals, our program offers an effective approach
+            to gaining weight in a sustainable manner.
+          </p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="about">
+      <div class="class__image">
+        <span class="bg__blur"></span>
+        <img src="assets/class-1.jpg" alt="class" class="class__img-1" />
+        <img src="assets/class-2.jpg" alt="class" class="class__img-2" />
+      </div>
+      <div class="class__content">
+        <h2 class="section__header">BİZ SİZİN İÇİN BURADAYIZ </h2>
+        <p>
+          Led by our team of expert and motivational instructors, "The Class You
+          Will Get Here" is a high-energy, results-driven session that combines
+          a perfect blend of cardio, strength training, and functional
+          exercises. Each class is carefully curated to keep you engaged and
+          challenged, ensuring you never hit a plateau in your fitness
+          endeavors.
+        </p>
+        <button class="btn" onclick="window.location.href='mailto:info@womgym.com'">iLETİŞİME GEÇ</button>
+      </div>
+    </section>
+
+    <section class="section__container join__container">
+      <h2 class="section__header">NEDEN BİZ ?</h2>
+      <p class="section__subheader">
+        Arkadaş edinebileceğiniz ve motive kalabileceğiniz samimi 
+        ve destekleyici bir atmosfer yaratır
+      </p>
+      <div class="join__image">
+        <img src="assets/join.jpg" alt="Join" />
+        <div class="join__grid">
+          <div class="join__card">
+            <span><i class="ri-user-star-fill"></i></span>
+            <div class="join__card__content">
+              <h4>Kişisel  Antrenör</h4>
+              <p>Uzman Kişisel Antrenörlerimiz ile potansiyelinizi ortaya çıkarın.</p>
+            </div>
+          </div>
+          <div class="join__card">
+            <span><i class="ri-vidicon-fill"></i></span>
+            <div class="join__card__content">
+              <h4>Practice Sessions</h4>
+              <p>Elevate your fitness with practice sessions.</p>
+            </div>
+          </div>
+          <div class="join__card">
+            <span><i class="ri-building-line"></i></span>
+            <div class="join__card__content">
+              <h4>Good Management</h4>
+              <p>Supportive management, for your fitness success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container contact__container" id="contact">
+      <h2 class="section__header">İLETİŞİM</h2>
+      <div class="contact__info">
+        <div class="contact__details">
+          <h4>İletişim Bilgileri</h4>
+          <p>Adres: Wom Gym, Örnek Sokak No: 123, Şehir, Ülke</p>
+          <p>Telefon: +123 456 7890</p>
+          <p>E-posta: info@womgym.com</p>
+          <div class="social__icons">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.291645469345!2d-74.00771038414326!3d40.712776883353865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25971710ee0bf%3A0xfb0f268e1317e71b!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1648609488459!5m2!1sen!2sus" width="55%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+    
+    <div class="footer__bar">
+      Copyright © 2024 Wom Gym. All rights reserved.
+    </div>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+      
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+  </script>
+  </body>
+</html>
